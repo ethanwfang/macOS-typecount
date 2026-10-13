@@ -4,7 +4,7 @@
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple) ![Swift](https://img.shields.io/badge/Swift-native-orange?logo=swift) ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 
-<!-- Add a screenshot of the popover here: ![KeyCount](docs/screenshot.png) -->
+<img src="docs/screenshot.png" alt="KeyCount menu bar popover showing keystrokes, keys per minute, and words per minute" width="420">
 
 - 🔢 Live keystroke count in the menu bar
 - ⚡ Current, peak, and average keys per minute, with words per minute
