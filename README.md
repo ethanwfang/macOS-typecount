@@ -26,7 +26,7 @@ No Xcode or Apple developer account needed. The script builds the app on your Ma
 
 ## Privacy
 
-KeyCount only counts how many keys you press per minute. It never sees what you type, and it never touches the network. Your counts stay in `~/Library/Application Support/KeyCount/`. The code is short enough to read in one sitting.
+KeyCount only counts how many keys you press per minute. It never sees what you type, and it never touches the network. Your counts stay in `~/Library/Application Support/KeyCount/`. 
 
 ## Update or uninstall
 
@@ -40,8 +40,6 @@ git pull && ./install.sh   # update (macOS asks for Input Monitoring again)
 **How is words per minute calculated?** Keys per minute ÷ 5, the standard typing-test definition. Backspace and shortcuts count too, so treat it as an estimate.
 
 **Why does it start counting from zero?** macOS keeps no keystroke history, so KeyCount counts from the moment you install it.
-
-**Why build from source instead of downloading an app?** It keeps KeyCount free and lets you see exactly what runs on your Mac.
 
 ## Contributing
 
